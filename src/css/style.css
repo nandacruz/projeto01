@@ -19,7 +19,7 @@ header .header-black{
 }
 
 header .header-black li{
-      background-image: url("../src/img/logos/clubs.png");
+      background-image: url("../img/logos/clubs.png");
       background-repeat: no-repeat;
       display: inline-block;
       margin: 4px 8px;
@@ -113,7 +113,17 @@ header #logotipo{
       top: 30px;
 }
 
+#menu{
+      margin: -26px 0px;
+}
+
 #menu li{
       display: inline-block;
       font-family: 'Open Sans', sans-serif;
+}
+
+#menu li a{
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 25px;
 }

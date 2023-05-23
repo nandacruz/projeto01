@@ -5,12 +5,15 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="src/css/style.css">
       <title>Orlando City</title>
 </head>
 <body>
       
       <header>
+            <div class="container">
+                  <img src="src/img/logos/orlando-logo.png" alt="Logotipo" id="logotipo">
+            </div>
 
             <div class="header-black">
                   <div class="container">
@@ -59,18 +62,22 @@
                   <div class="row">
                         <nav id="menu">
                               <ul class="float-end">
-                                    <li>Tickets</li>
-                                    <li>News</li>
-                                    <li>Schedule</li>
+                                    <li><a href="#">Tickets</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Schedule</a></li>
                                     <li>
-                                          <input type="search" placeholder="search...">
+                                          <div class="input-group">
+                                                <input type="search" class="form-control" placeholder="search">
+                                                <span class="input-group-btn">
+                                                      <button class="" type="button">Go!</button>
+                                                </span>
+                                          </div>
+                                         
                                     </li>
+                                   
                               </ul>
                         </nav>
                   </div>
-            </div>
-            <div class="container">
-                  <img src="src/img/logos/orlando-logo.png" alt="Logotipo" id="logotipo">
             </div>
             
       </header>
